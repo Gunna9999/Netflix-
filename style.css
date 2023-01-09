@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    background-image: url(./img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    width: 100%;
+}
+
+.header-2 img {
+    width: 9rem;
+    position: absolute;
+    left: 15%;
+    top: 130%;
+    z-index: 2;
+}
+
+.header-2 a {
+    text-decoration: none;
+    position: absolute;
+    right: 0%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.header-2 {
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+header a{
+    margin-top: 3rem;
+        margin-right: 3rem;
+        color: aliceblue;
+        background-color: red;
+        padding: 7px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+    
+}
+
+.img {
+    margin-top: 3rem;
+}
+
+.header-content {
+    position: relative;
+    text-align: center;
+    padding-top: 10rem;
+    z-index: 2;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+
+
+.email {
+    padding-top: 1rem;
+        padding-bottom: 1rem;
+    padding-right: 20rem;
+    padding-left: .5rem;
+    background-color: aliceblue;
+    margin-bottom: 1.5rem;
+    border: none;
+    width: 15rem;
+}
+
+.btnxl {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btnlg {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 9px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px black;
+}
+
+.line {
+    border: 3px solid gray;
+}
+
+section {
+    color: aliceblue;
+}
+
+h4 {
+    margin-top: 4rem;
+}
+
+
+.btnlg {
+    color: aliceblue;
+
+}
+
+button {
+    background-color: red;
+    border: none;
+   padding-top: 0.8rem ;
+   padding-bottom: 1rem;
+   padding-left: 1rem;
+   padding-right:1rem ;
+   text-align: center;
+margin-left: -0.7rem;
+}
+
+.section-content {
+    position: relative;
+}
+
+.sub-section {
+    padding: 4rem;
+}
+
+.sub-section-2 {
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.img-size {
+    width: 400px;
+}
+
+.tv-img {
+    margin-top: 3rem;
+}
+
+.content {
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-bottom: 3rem;
+    border-top: 7px solid #999;
+}
+
+.content-2 {
+    margin-bottom: 3rem;
+    border-top: 7px solid #999;
+}
+
+.content-3 {
+    padding-top: 2.5rem;
+    border-top: 7px solid #999;
+    text-align: center;
+    display: flex;
+    color: aliceblue;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    padding-bottom: 2.5rem;
+    border-bottom: 7px solid #999;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.content-3 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.content-3 .Q-Section h3 {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+   background-color: rgb(65, 62, 62);
+   padding: 1rem;
+    width: 700px;
+}
+
+.content-3 .Q-Section h5 {
+   margin-bottom: 2rem;
+   line-height: 2rem;
+}
+
+.content-3 .Q-Section-2  {
+    width: 700px;
+ font-size: 1.5rem;
+ text-align: justify;
+background-color: rgb(65, 62, 62);
+    padding: 1rem;
+    display: none;
+}
+
+.fa-plus {
+    position: absolute;
+    left: 75%;
+    font-size: 2rem;
+}
+
+.fa-xmark {
+    position: absolute;
+    left: 75%;
+    display: none;
+}
+
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-top: 5rem;
+        padding-left: 5rem;
+        height: 220px;
+        line-height: 2rem;
+}
+
+.head {
+    color: aliceblue;
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+
+.foot-link {
+    color: aliceblue;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.head:hover {
+    color: #999;
+}
+
+.foot-link:hover {
+    color: #999;
+}
+
+
+@media(max-width:1000px) {
+    .header-2 img {
+width: 100px;
+    }
+
+    header h2 {
+font-size: 1.5rem;
+    }
+
+   header h3 {
+        font-size: 1rem;
+    }
+
+     h4 {
+        font-size: 1rem;
+    }
+
+    .content-3 h1 {
+        font-size: 2rem;
+    }
+    
+
+    .email {
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+        padding-right: 2rem;
+        padding-left: .5rem;
+        background-color: aliceblue;
+        margin-bottom: 1.5rem;
+    }
+
+        section h2 {
+            font-size: 1.5rem;
+        }
+
+                section h3 {
+                    font-size: 1rem;
+                }
+
+             .content-3 .Q-Section h3 {
+             text-align: justify;
+             font-size: 1rem;
+             margin-bottom: 1.5rem;
+            background-color: rgb(65, 62, 62);
+            padding: 1rem;
+             width: 300px;
+           }
+            .content-3 .Q-Section-2  {
+             width: 300px;
+            font-size: 1rem;
+            text-align: justify;
+            background-color: rgb(65, 62, 62);
+            padding: 1rem;
+            display: none;
+              
+        }.fa-plus {
+            position: absolute;
+            left: 75%;
+            font-size: 2rem;
+        }
+        
+        .fa-xmark {
+            position: absolute;
+            left: 75%;
+            display: none;
+        }
+
+              
+                                                               
+
+    .img-size {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-section-2 {
+       margin-left: 3rem;
+    }
+
+    .content-2 {
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+        button {
+            background-color: red;
+            border: none;
+            padding-top: 0.6rem;
+            padding-bottom: 0.8rem;
+            padding-left: .8rem;
+            padding-right: .8rem;
+            text-align: center;
+            margin-left: -0.7rem;
+        }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-top: 5rem;
+        padding-left: 2rem;
+        height: 220px;
+        line-height: 2rem;
+    }
+
+    .footer .head {
+        font-size: 12px;
+    }
+
+    .foot-link {
+        color: aliceblue;
+        font-weight: lighter;
+        font-size: 9px;
+    }
+}
